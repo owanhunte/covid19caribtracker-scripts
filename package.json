@@ -1,0 +1,19 @@
+{
+  "name": "covid19caribtracker-scripts",
+  "version": "1.0.0",
+  "description": "A repository for automation scripts developed specifically for the covid19caribtracker.com web app.",
+  "main": "src/lambdas/syncCovid19Stats.js",
+  "repository": "git@github.com:owanhunte/covid19caribtracker-scripts.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Owan Hunte <owanh@hotmail.com>",
+  "private": true,
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
