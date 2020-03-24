@@ -6,8 +6,7 @@ exports.handler = async () => {
 
   // Sync global total stats first.
   const globalTotals = await fetcher.fetchGlobalTotals();
-  const res = await updater.updateGlobalTotals(globalTotals);
-  console.log(res);
+  await updater.updateGlobalTotals(globalTotals);
 };
 
 if (process.env.DEV === "true") {
