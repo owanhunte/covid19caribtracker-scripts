@@ -165,6 +165,7 @@ exports.caribbeanCountries = [
   },
   {
     name: "St. Kitts and Nevis",
+    covidAPIName: "Saint Kitts and Nevis",
     isoCode: "KN",
     unCode: "KNA",
     populationEstimate: 53098
@@ -203,6 +204,7 @@ exports.caribbeanCountries = [
   },
   {
     name: "Turks and Caicos Islands",
+    covidAPIName: "Turks and Caicos",
     isoCode: "TC",
     unCode: "TCA",
     populationEstimate: 38576
